@@ -1,2 +1,6 @@
 # BetterSanic-Example
-very basic lame example on how to use BetterSanic
+# credits
+- kiko 
+for making this
+- mercury
+for making this shitty ass example (: <3
