@@ -1,4 +1,4 @@
-from utils import bettersanic as bs
+import bettersanic as bs
 from sanic.response import text
 
 class Index(bs.Cog):
@@ -7,7 +7,7 @@ class Index(bs.Cog):
     
     @bs.route("/")
     async def index(self, request):
-        return text("this is cool i guess")
+        return text("Hello World")
 
 def setup(app):
     app.add_cog(Index(app))
